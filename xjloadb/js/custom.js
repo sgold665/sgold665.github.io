@@ -1,5 +1,6 @@
-const GameDownUrlIos = ""; // iOS
-const GameDownUrlAndroid = "https://kh109gm.kkd666.com/package/xingjibuyu.apk"; // Android
+//const GameDownUrlIos = ""; // iOS
+const GameDownUrlIos = "itms-services://?action=download-manifest&url=https://kh109gm.kkd666.com/xjby/xingji.plist"; // iOS
+const GameDownUrlAndroid = "https://kh109gm.kkd666.com/xjby/xingjibao1.apk"; // Android
 
 const TITLE = "星际捕鱼"; // 当前名字
 const DATE = "2024-08-15"; // 更新时间
@@ -30,7 +31,7 @@ const type = this.getDevice();
 if (type == "ios") {   // iOS
     // text = GameDownUrlIos;
     imgUrl = './image/img_ios.png';
-    size = '750.23MB';
+    size = '767.54MB';
 } else {    // android
     // text = GameDownUrlAndroid;
     imgUrl = './image/img_android.png';
@@ -103,8 +104,6 @@ function deviceType() {
     if (type == "android") {
         window.location.href = GameDownUrlAndroid;
     } else if (type == "ios") {
-		alert("敬请期待！");
-		return;
         window.location.href = GameDownUrlIos;
     }
 }
