@@ -1,9 +1,9 @@
 //const GameDownUrlIos = ""; // iOS
 const GameDownUrlIos = "itms-services://?action=download-manifest&url=https://kh109gm.kkd666.com/xjby/xingji.plist"; // iOS
-const GameDownUrlAndroid = "https://kh109gm.kkd666.com/xjby/xingjibao1.apk"; // Android
+const GameDownUrlAndroid = "https://kh109gm.kkd666.com/xjby/xingjibuyu.apk"; // Android
 
 const TITLE = "星际捕鱼"; // 当前名字
-const DATE = "2024-08-15"; // 更新时间
+const DATE = "2024-08-21"; // 更新时间
 const VERSION = "2.0.24.8(build 1)"; // 当前版本
 
 function getDevice() {
