@@ -30,11 +30,11 @@ const type = this.getDevice();
 if (type == "ios") {   // iOS
     // text = GameDownUrlIos;
     imgUrl = './image/img_ios.png';
-    size = '686.25MB';
+    size = '663.7MB';
 } else {    // android
     // text = GameDownUrlAndroid;
     imgUrl = './image/img_android.png';
-    size = '663.7MB';
+    size = '686.25MB';
 }
 
 // create qrcode
