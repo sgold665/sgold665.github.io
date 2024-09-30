@@ -2,7 +2,7 @@ const GameDownUrlIos = "itms-services://?action=download-manifest&url=https://kh
 const GameDownUrlAndroid = "https://kh109gm.kkd666.com/csby/caishenbuyu.apk"; // Android
 
 const TITLE = "财神捕鱼"; // 当前名字
-const DATE = "2024-10-03"; // 更新时间
+const DATE = "2024-09-30"; // 更新时间
 const VERSION = "2.0.24.3(build 1)"; // 当前版本
 
 function getDevice() {
@@ -30,11 +30,11 @@ const type = this.getDevice();
 if (type == "ios") {   // iOS
     // text = GameDownUrlIos;
     imgUrl = './image/img_ios.png';
-    size = '930.63MB';
+    size = '686.25MB';
 } else {    // android
     // text = GameDownUrlAndroid;
     imgUrl = './image/img_android.png';
-    size = '870.55MB';
+    size = '663.7MB';
 }
 
 // create qrcode
